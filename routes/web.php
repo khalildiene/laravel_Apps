@@ -22,5 +22,5 @@ Route::get('/', function () {
 
 Auth::routes();
 
-route::get('/liste-apprenant',[ApprenantController::class,'index']);
-route::get('/liste-formation',[FormationController::class,'index']);
+route::get('/liste_apprenant',[ApprenantController::class,'index']);
+route::get('/liste_formation',[FormationController::class,'index']);
